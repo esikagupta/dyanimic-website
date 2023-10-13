@@ -1,0 +1,1453 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<section>
+    <style>
+    body {margin:0;}
+    
+    .navbar {
+      overflow: hidden;
+      background-color:  #2e3267;
+      position: none;
+      top: 0;
+      width: 100%;
+    }
+    
+    .navbar a {
+      float: left;
+      display: block;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+    }
+    
+    .navbar a:hover {
+      background: #ddd;
+      color: black;
+    }
+    
+    .main {
+      padding: 16px;
+      margin-top: 30px;
+      height: 1500px; /* Used in this example to enable scrolling */
+    }
+    </style>
+    </head>
+    <body>
+    
+    <div class="navbar">
+
+
+
+
+
+
+
+
+
+
+
+       
+            <div class="container footer_container">
+                <div class="footer_1">
+                    <li>
+                        <i class="uil uil-envelope">
+                            <h5>thelegalworld88@gmail.com</h5>
+                        </i>
+    
+                    </li>
+    
+                   
+                </div>
+        
+                <div class="footer_2">
+                    <li>
+                        <i class="uil uil-phone-times">
+                            <h5>Call Us: +91 8840600757</h5>
+                        </i>
+                    </li>
+                
+                </div>
+                   
+
+
+                    <ul class="footer_socials">
+
+                        <li>
+
+                            <h5>                        
+                                <a href="book appointment.html"><i class="uil uil-users-alt">Book Appointment</i></a>
+                            </h5>
+                        </i>
+    
+                    </li>
+
+
+
+
+                        <li>
+                            <a href="https://www.facebook.com/profile.php?id=61551953876375&mibextid=ZbWKwL"><i class="uil uil-facebook-f"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/thelegalworld88/"><i class="uil uil-instagram-alt"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/ThelegalWorld88"><i class="uil uil-twitter"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/thelegal-world-b86683293"><i class="uil uil-linkedin-alt"></i></a>
+                        </li>
+        
+                    </ul>
+                    
+        </div>
+    </div>
+    
+    </section>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equive="X-UA-Compatible" content="IE=edges">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Legal World</title>
+
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Poppins:wght@500&display=swap" rel="stylesheet">
+
+<!------------------------------------------------------------------------------>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+
+
+
+
+
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+</style>
+</head>
+<body>
+
+    
+   
+
+
+<div class="slideshow-container">
+
+  
+       
+      
+
+<div class="mySlides fade">
+  
+  <img src="image/room.webp" style="width:100%">
+  <div class="text">
+            <div class="header_left">
+                <h1> WE HAVE BEST ATTORNEY FOR YOUR CASE</h1>
+                <a href="practice area.html" class="btn btn-primary">Get Attorneys</a>
+                <a href="book appointment.html" class="btn btn-primary">Contact</a>
+            </div>
+
+
+
+  </div>
+</div>
+
+<div class="mySlides fade">
+  
+  <img src="image/high court.jpg" style="width:100%">
+  <div class="text">
+    <div class="header_left">
+        <h1> WE HAVE BEST ATTORNEY FOR YOUR CASE</h1>
+        <a href="practice area.html" class="btn btn-primary">Get Attorneys</a>
+        <a href="book appointment.html" class="btn btn-primary">Contact</a>
+</div>
+  </div>
+</div>
+
+<div class="mySlides fade">
+  <img src="image/123.jpg"> 
+  <div class="text">
+    <div class="header_left">
+        <h1> WE HAVE BEST ATTORNEY FOR YOUR CASE</h1>
+        <a href="practice area.html" class="btn btn-primary">Get Attorneys</a>
+        <a href="book appointment.html" class="btn btn-primary">Contact</a>
+   </div>
+
+
+
+  </div>
+</div>
+
+
+</div>
+
+
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.columns {
+  float: left;
+  width: 33.3%;
+  padding: 8px;
+}
+
+.price {
+  list-style-type: none;
+  border: 1px solid #eee;
+  margin: 0;
+  padding: 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.price:hover {
+  box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+}
+
+.price .header {
+  background-color: #6c63ff;
+  color: white;
+  font-size: 25px;
+}
+
+.price li {
+  border-bottom: 1px solid #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.price .grey {
+  background-color: #6c63ff;
+  font-size: 20px;
+}
+
+.button {
+  background-color: #f75842;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+@media only screen and (max-width: 600px) {
+  .columns {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="columns">
+  <ul class="price">
+    <li class="header">Online Drafting</li>
+    <li>Services Go to Online.</li>
+    
+    <li class="grey"><a href="online drafting.html" class="button">See</a></li>
+  </ul>
+</div>
+
+<div class="columns">
+  <ul class="price">
+    <li class="header" style="background-color:#6c63ff">Fee Structure</li>
+
+    <li>Your Money is Safer With Us.</li>
+    
+    <li class="grey"><a href="./fee_Structure.pdf" download='mobile'><i class="fa fa-download">Download</button></i>
+        </a></li>
+  </ul>
+</div>
+
+<div class="columns">
+  <ul class="price">
+    <li class="header">Expert Lawyer</li>
+   
+    <li>Great Law Firm (expert lawyer).</li>
+    
+    <li class="grey"><a href="practice area.html" class="button">See</a></li>
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
+
+<script>
+    var swiper = new Swiper(".mySwiper", {
+      spaceBetween: 30,
+      centeredSlides: true,
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
+
+<script>
+    var slideIndex = 0;
+    carousel();
+
+    function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+    }
+   slideIndex++;
+   if (slideIndex > x.length) {slideIndex = 1}
+   x[slideIndex-1].style.display = "block";
+   setTimeout(carousel, 2000); // Change image every 2 seconds
+   }
+</script>
+
+
+
+
+
+</body>
+</html> 
+
+
+
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equive="X-UA-Compatible" content="IE=edges">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Legal World</title>
+
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Poppins:wght@500&display=swap" rel="stylesheet">
+
+<!------------------------------------------------------------------------------>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+
+
+
+
+
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {margin:0;font-family:Arial}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 17px;    
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.topnav a:hover, .dropdown:hover .dropbtn {
+  background-color: #555;
+  color: white;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child), .dropdown .dropbtn {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .topnav.responsive .dropdown {float: none;}
+  .topnav.responsive .dropdown-content {position: relative;}
+  .topnav.responsive .dropdown .dropbtn {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+</style>
+</head>
+<body>
+
+
+  
+    
+    
+
+
+
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
+    <nav>
+        <div class="container nav_container">
+            <a href="index.html"><h4>The Legal World 
+            </h4></a>
+
+
+           
+
+            <ul class="nav_menu">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="online drafting.html">ONLINE DRAFTING</a></li>
+                <li><a href="practice area.html">PRACTICE AREA</a></li>
+                <li><a href="free advice.html">FREE ADVICE</a></li>
+                <li><a href="book appointment.html">BOOK APPOINTMENT</a></li>
+            </ul>
+           
+        </div>
+    </nav>
+
+
+
+
+
+
+
+
+
+
+    <section class="categories">
+        <div class="container categories_container">
+            <div class="categories_left">
+                <h1> Practice Area</h1>
+                <p>
+                    <li> Criminal Law</li>
+                    <li> Family Law</li>
+                    <li> Civil Law</li>
+                    <li> Taxation Law</li>
+                    <li> Consumer Protection Law</li>
+                    <li> Labour Law</li>
+                </p>
+                <a href="#" class="btn"> See More</a>
+            </div>
+            <div class="categories_right">
+                <article class="category">
+                    <spam class="category_icon"><i class="uil uil-user-circle"></i></spam>
+                    <h5>Criminal Law</h5>
+                    <p>
+                        Criminal law is the body of law that relates to crime. 
+                    </p>
+                </article>
+
+
+
+                <article class="category">
+                    <spam class="category_icon"><i class="uil uil-user-circle"></i></spam>
+                    <h5>Civil Law</h5>
+                    <p>
+                        Civil law is a legal system originating in mainland Europe and world.
+                    </p>
+                </article>
+
+
+                <article class="category">
+                    <spam class="category_icon"><i class="uil uil-user-circle"></i></spam>
+                    <h5>Taxation Law</h5>
+                    <p>
+                        Tax law or revenue law is an area of legal study in which public. 
+                    </p>
+                </article>
+
+
+
+
+                <article class="category">
+                    <spam class="category_icon"><i class="uil uil-user-circle"></i></spam>
+                    <h5>Family Law</h5>
+                    <p>
+                        Family law also called matrimonial law.
+                    </p>
+                </article>
+
+
+
+
+                <article class="category">
+                    <spam class="category_icon"><i class="uil uil-user-circle"></i></spam>
+                    <h5>Consumer Protection Law</h5>
+                    <p>
+                        Consumer Protection Act is an Act of the Parliament of India.
+    
+                    </p>
+                </article>
+
+
+
+
+                <article class="category">
+                    <spam class="category_icon"><i class="uil uil-user-circle"></i></spam>
+                    <h5>Labour Law</h5>
+                    <p>
+                        Labour law is the area of law which signifies the relationship .
+                    </p>
+                </article>
+
+
+
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <section class="courses">
+        <h2> Why Choose The Legal World</h2>
+        <div class="container courses_container">
+            <article class="course">
+                <div class="course_image">
+                    <img src="./image/high court.jpg">
+                </div>
+                <div class="course_info">
+                    <h4> Skilled Attorneys</h4>
+                
+                    <p>The legal world is a lucknow based legal firm . We provide high level legal consultation services to the customers those who need any type of legal help.We have highly experienced and expertise lawyers in various Indian laws.</p>
+                    <a href="free advice.html" class="btn btn-primary">Read More  </a>
+                </div>
+            </article>
+
+            <article class="course">
+                <div class="course_image">
+                    <img src="./image/OIP.jpeg">
+                </div>
+                <div class="course_info">
+                    <h4>Skilled Attorneys</h4>
+                    <p>We have highly experienced and expertise lawyers in various Indian laws. experience.We always care our customers with patience and offer the best legal advice.Our senior learned counsels have more than 30 years’ experience.</p>
+
+
+                    <a href="free advice.html" class="btn btn-primary">Read More
+
+                    </a>
+                </div>
+                
+                
+               
+            </article>
+
+
+            <article class="course">
+                <div class="course_image">
+                    <img src="./image/room.webp">
+                </div>
+                <div class="course_info">
+                    <h4>Skilled Attorneys</h4>
+                    <p>Our senior learned counsels have more than 30 years’ experience. Our lawyers always research a lot to provide the best legal solutions to our clients at reasonable fees.We have highly experienced lawyers in Indian laws.
+
+                    </p>
+                    <a href="free advice.html" class="btn btn-primary">Read More
+
+                    </a>
+                
+
+                </div>
+                
+                
+            </article>
+
+        </div>
+    </section>
+
+
+
+    <section class="faqs">
+        <h2>About The Legal World</h2>
+        <div class="container faqs_container">
+            <article class="faq">
+                <div class="faq_icon"><i class="uil uil-plus"></i></div>
+                <div class="question_answer">
+                    <h4>What type of a cases does your firm handle?</h4>
+                    <p>
+                        Our areas of practice include Criminal law, bail, civil law, family disputes etc.
+                    </p>
+                </div>
+
+            </article>
+
+            <article class="faq ">
+                <div class="faq_icon"><i class="uil uil-plus"></i></div>
+                <div class="question_answer">
+                    <h4>Do you charge for consultation?</h4>
+                    <p>
+                        Yes the consultation fees is Rs 500/- (non-adjustable)
+             
+                    </p>
+                </div>
+
+            </article>
+
+            <article class="faq">
+                <div class="faq_icon"><i class="uil uil-plus"></i></div>
+                <div class="question_answer">
+                    <h4>Will i have to go to court?</h4>
+                    <p>
+                        You will not necessarily have to go to court. Except in the case where it is needed according to law.
+                    </p>
+                </div>
+
+            </article>
+
+            <article class="faq">
+                <div class="faq_icon"><i class="uil uil-plus"></i></div>
+                <div class="question_answer">
+                    <h4>How long have been in this field?</h4>
+                    <p>
+                        Our senior counsel Mr. J P Srivastava has a vast experience in this field .he has been in practice since 1985. Our other lawyers are experienced too and have been in practice for more than 6 years in law
+                
+                    </p>
+                </div>
+
+            </article>
+
+            <article class="faq">
+                <div class="faq_icon"><i class="uil uil-plus"></i></div>
+                <div class="question_answer">
+                    <h4>How can i book my appointment?</h4>
+                    <p>
+                        Go to the homepage of the site click on the Book Appointment icon, fill the necessary details and submit our staff will give you a date for appointment.
+                
+                    </p>
+                </div>
+
+            </article>
+
+            <article class="faq">
+                <div class="faq_icon"><i class="uil uil-plus"></i></div>
+                <div class="question_answer">
+                    <h4>How can i take free advice?</h4>
+                    <p>
+                        Go to the homepage of the site click on the Free Advice icon, fill the necessary details and ask your question in the space provided, our expert will give their opinion in 24 hrs.
+                    </p>
+                </div>
+
+            </article>
+
+
+        </div>
+    </section>
+
+
+
+
+
+    <section class="container testimonials_container mySwiper">
+        <h2> Our Expert Attorneys</h2>
+        <div class="swiper-wrapper">
+            <article class="testimonials swiper-slide">
+                <div class="avatar">
+                    <img src="./image/unkn.jpg">
+                </div>
+                <div class="testimonial_info">
+                    <h5>Adv Harsh Gupta</h5>
+                    <small> High Court & Civil Court</small>
+                </div>
+                <div class="testimonial_body">
+                    <p>
+                        High Court Lawyer handle - Criminal Cases, Corporate Cases, Family Court and Claim Petition. 
+                    </p>
+                </div>
+            </article> 
+
+
+            <article class="testimonials swiper-slide">
+                <div class="avatar">
+                    <img src="./image/unkn.jpg">
+                </div>
+                <div class="testimonial_info">
+                    <h5>Adv J.P. Srivastava</h5>
+                    <small> Senior Council</small>
+                </div>
+                <div class="testimonial_body">
+                    <p>
+                        High Court Lawyer and Civil Court handle - Criminal Cases, Lower Court ,Corporate Cases etc. 
+                    </p>
+                </div>
+            </article>
+
+
+
+            <article class="testimonials swiper-slide">
+                <div class="avatar">
+                    <img src="./image/unkn.jpg">
+                </div>
+                <div class="testimonial_info">
+                    <h5>Adv Anurag Srivastava</h5>
+                    <small> Senior Council</small>
+                </div>
+                <div class="testimonial_body">
+                    <p>
+                        High Court and Civil Court Lawyer handle - Criminal Cases, Civil Cases, Lower Court etc.
+                    </p>
+                </div>
+            </article>
+
+
+
+            <article class="testimonials swiper-slide">
+                <div class="avatar">
+                    <img src="./image/unkn.jpg">
+                </div>
+                <div class="testimonial_info">
+                    <h5>Adv Avinash Chandra</h5>
+                    <small> Civil Court</small>
+                </div>
+                <div class="testimonial_body">
+                    <p>
+                        Civil Court Lawyer handle Criminal Cases.
+                    </p>
+                </div>
+            </article>
+
+
+
+            <article class="testimonials swiper-slide">
+                <div class="avatar">
+                    <img src="./image/unkn.jpg">
+                </div>
+                <div class="testimonial_info">
+                    <h5>Adv Madhur Bharti</h5>
+                    <small> GST and Income Tax</small>
+                </div>
+                <div class="testimonial_body">
+                    <p>
+                        Civil Court Lawyer handle matter of GST and Income Tax cases.
+                    </p>
+                </div>
+            </article>
+
+
+
+
+            <article class="testimonials swiper-slide">
+                <div class="avatar">
+                    <img src="./image/unkn.jpg">
+                </div>
+                <div class="testimonial_info">
+                    <h5>Adv Ashu Yadav</h5>
+                    <small> Junior Council</small>
+                </div>
+                <div class="testimonial_body">
+                    <p>
+                        Civil Court Lawyer handle WILL Registration as a Junior Council.
+                    </p>
+                </div>
+            </article>
+
+
+
+            <article class="testimonials swiper-slide">
+                <div class="avatar">
+                    <img src="./image/unkn.jpg">
+                </div>
+                <div class="testimonial_info">
+                    <h5>Adv Arun Gupta</h5>
+                    <small> NI ACT</small>
+                </div>
+                <div class="testimonial_body">
+                    <p>
+                        Civil Court Lawyer handle NI ACT cases.
+                    </p>
+                </div>
+            </article>
+
+
+
+            <article class="testimonials swiper-slide">
+                <div class="avatar">
+                    <img src="./image/unkn.jpg">
+                </div>
+                <div class="testimonial_info">
+                    <h5> Adv Abhishek Tripathi</h5>
+                    <small> Junior Council</small>
+                </div>
+                <div class="testimonial_body">
+                    <p>
+                        Civil Court Lawyer working as a junior council. 
+                    </p>
+                </div>
+            </article>
+
+            <article class="testimonials swiper-slide">
+                <div class="avatar">
+                    <img src="./image/unkn.jpg">
+                </div>
+                <div class="testimonial_info">
+                    <h5>Adv Jantri 
+                    </h5>
+                    <small> Family Court</small>
+                </div>
+                <div class="testimonial_body">
+                    <p>
+                        Civil Court and Family Court Lawyer working as a junior council. 
+                    </p>
+                </div>
+            </article>
+
+
+
+        </div>
+        <div class="swiper-pagination"></div>
+    </section>
+
+
+
+<!-----------------------------------------OUR SUCCESS STORY------------------------------------>
+
+
+
+<section class="faqs">
+    <h2>Our Success Story</h2>
+    <div class="container faqs_container">
+        <article class="faq">
+                <h4>
+                    "It’s been a long journey for our senior counsel in this field, but reason why it is felt to form a legal firm is the need of the client and his difficulties to find all kind of lawyers for his various problems. There are endless success stories and many more to come but one thing which will remain firm and constant is our motto that is to serve our client in the most legal and ethical manner."
+                </h4>
+                
+            </div>
+        </article>
+
+        </div>
+
+        <div class="container faqs_container">
+            <article class="faq">
+                    <h1>
+                        The Legal World
+                    </h1>
+                    <div class="avatar">
+                        <img src="./image/logo 3d.jpg">
+                    </div>
+                    
+                </div>
+            </section>
+
+
+
+
+            <!--------------------------------------------testimonials------------------------------>
+
+<section class="container testimonials_container mySwiper">
+    <h2> Testimonials</h2>
+    <div class="swiper-wrapper">
+        <article class="testimonials swiper-slide">
+            
+            <div class="testimonial_info">
+                
+            </div>
+            <div class="testimonial_body">
+                <p>
+                    " Now it is very easy for person like me who is a senior citizen to find a good lawyer, he is just one click away. "
+                </p>
+            </div>
+        </article> 
+
+
+        <article class="testimonials swiper-slide">
+           
+            <div class="testimonial_info">
+                
+            </div>
+            <div class="testimonial_body">
+                <p>
+                    " The whole experience was so much easier on us because of them, they are professional yet friendly."
+                </p>
+            </div>
+        </article>
+
+
+        <article class="testimonials swiper-slide">
+           
+            <div class="testimonial_info">
+                
+            </div>
+            <div class="testimonial_body">
+                <p>
+                    " The whole experience was so much easier on us because of them, they are professional yet friendly."
+
+                </p>
+            </div>
+        </article>
+
+
+
+
+
+
+    </section>
+
+
+                
+
+
+            
+            
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3559.0150421310213!2d81.00902347507429!3d26.871263176671878!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399be2dd108aa913%3A0xb35ae5f92f7d1a2e!2sHigh%20Court%20Lucknow!5e0!3m2!1sen!2sin!4v1695664554932!5m2!1sen!2sin" width="500" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></section>
+
+    
+
+
+
+
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equive="X-UA-Compatible" content="IE=edges">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Legal World</title>
+
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Poppins:wght@500&display=swap" rel="stylesheet">
+
+<!------------------------------------------------------------------------------>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+
+
+
+
+
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <nav>
+        <div class="container nav_container">
+            <a href="index.html"><h4>The Legal World</h4></a>
+            <ul class="nav_menu">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="online drafting.html">ONLINE DRAFTING</a></li>
+                <li><a href="practice area.html">PRACTICE AREA</a></li>
+                <li><a href="free advice.html">FREE ADVICE</a></li>
+                <li><a href="book appointment.html">BOOK APPOINTMENT</a></li>
+            </ul>
+            <button id="open-menu-btn"><i class="uil uil-bars"></i></button>
+            <button id="close-menu-btn"><i class="uil uil-multiply"></i></button>
+
+        </div>
+    </nav>
+
+
+    <footer>
+        <div class="container footer_container">
+            <div class="footer_1">
+                <a href="index.html" class="footer_logo"><h4>Some About</h4></a>
+                <p>
+                    The Legal World is founded by Advocate Harsh Gupta with the help of Advocate Anurag Srivastava and Advocate Avinash Chandra in 2023 with the vision to provide a quality based and complete legal service to the client in Lucknow and nearby cities.
+
+                </p>
+            </div>
+
+            <div class="footer_2">
+                <h4> Permalinks</h4>
+                <ul class="Permalinks">
+                    <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="online drafting.html">ONLINE DRAFTING</a></li>
+                <li><a href="practice area.html">PRACTICE AREA</a></li>
+                <li><a href="free advice.html">FREE ADVICE</a></li>
+                <li><a href="book appointment.html">BOOK APPOINTMENT</a></li>
+            
+
+                </ul>
+            
+            </div>
+
+            <div class="footer_3">
+                <h4> Important Link</h4>
+                <ul class="Permalinks">
+                    <li><a href="#">Terms & Conditions</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Know The Law</a></li>
+                <li><a href="#"></a>Law Firms</li>
+                <li><a href="#">RTI Updates</a></li>
+            
+
+                </ul>
+            </div>
+
+            <div class="footer_4">
+                <h4> Contact Us</h4>
+                <div>
+                   <li>
+                    <i class="uil uil-phone-times">
+                        <h5>+91 8840600757</h5>
+                    </i>
+                </li>
+                <li>
+                    <i class="uil uil-envelope">
+                        <h5>thelegalworld88@gmail.com</h5>
+                    </i>
+
+                </li>
+
+                <li>
+                    <i class="uil uil-envelope">
+                        <h5>harshgupta9219@gmail.com</h5>
+                    </i>
+
+                </li>
+
+                <li>
+                    <i class="uil uil-location-point">
+                        <h5>High Court, Lucknow</h5>
+                    </i>
+
+                </li>
+                </div>
+
+                <ul class="footer_socials">
+                    <li>
+                        <a href="https://www.facebook.com/profile.php?id=61551953876375&mibextid=ZbWKwL"><i class="uil uil-facebook-f"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/thelegalworld88/"><i class="uil uil-instagram-alt"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/ThelegalWorld88"><i class="uil uil-twitter"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/thelegal-world-b86683293"><i class="uil uil-linkedin-alt"></i></a>
+                    </li>
+
+                </ul>
+            </div>
+
+            <div class="footer_copyright">
+                <small> Copyright &copy. All rights reserved by The Legal World</small>
+            </div>
+            
+
+
+
+
+
+
+
+
+
+        </div>
+
+
+
+
+
+        <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+        <script src="./main.js"></script>
+
+
+        <script>
+            var swiper = new Swiper(".mySwiper", {
+              spaceBetween: 30,
+              centeredSlides: true,
+              autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+              },
+              pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+              },
+              navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+              },
+            });
+          </script>
+
+          <script>
+              var slideIndex = 0;
+              carousel();
+
+              function carousel() {
+              var i;
+              var x = document.getElementsByClassName("mySlides");
+              for (i = 0; i < x.length; i++) {
+              x[i].style.display = "none";
+              }
+             slideIndex++;
+             if (slideIndex > x.length) {slideIndex = 1}
+             x[slideIndex-1].style.display = "block";
+             setTimeout(carousel, 2000); // Change image every 2 seconds
+             }
+          </script>
+
+
+
+
+
+
+
+
+        
+       
+
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+        
